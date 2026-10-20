@@ -1,0 +1,17 @@
+{
+  "name": "psw2-nodemailer-dotenv",
+  "version": "1.0.0",
+  "description": "Atividade PSW2 - formulário de contato com Express, EJS, express-validator, Nodemailer e dotenv",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "nodemailer": "^6.9.16"
+  }
+}
